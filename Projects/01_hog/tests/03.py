@@ -7,31 +7,28 @@ test = {
         {
           'code': r"""
           >>> take_turn(2, 7, 27, make_test_dice(4, 5, 1))
-          872dbe4a4fe5d8451aa842c21194c866
-          # locked
+          9
           """,
           'hidden': False,
-          'locked': True,
+          'locked': False,
           'multiline': False
         },
         {
           'code': r"""
           >>> take_turn(3, 15, 9, make_test_dice(4, 6, 1))
-          43d176e102c8d95338faf8791aa509b3
-          # locked
+          1
           """,
           'hidden': False,
-          'locked': True,
+          'locked': False,
           'multiline': False
         },
         {
           'code': r"""
           >>> take_turn(0, 12, 41) # what happens when you roll 0 dice?
-          327b19ffebddf93982e1ad2a4a6486f4
-          # locked
+          6
           """,
           'hidden': False,
-          'locked': True,
+          'locked': False,
           'multiline': False
         },
         {
