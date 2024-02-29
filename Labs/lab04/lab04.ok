@@ -1,0 +1,29 @@
+{
+    "name": "Lab 4",
+    "endpoint": "cal/cs61a/fa23/lab04",
+    "src": [
+        "lab04.py"
+    ],
+    "tests": {
+        "lab*.py": "doctest",
+        "tests/*.py": "ok_test"
+    },
+    "default_tests": [
+        "lists-wwpd",
+        "my_map",
+        "my_map_syntax_check",
+        "my_filter",
+        "my_filter_syntax_check",
+        "my_reduce",
+        "merge",
+        "double_eights"
+    ],
+    "protocols": [
+        "restore",
+        "file_contents",
+        "unlock",
+        "grading",
+        "analytics",
+        "backup"
+    ]
+}
