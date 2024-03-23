@@ -1,0 +1,26 @@
+{
+    "name": "Lab 13",
+    "endpoint": "cal/cs61a/fa23/lab13",
+    "src": [
+        "lab13.sql",
+        "lab13.py"
+    ],
+    "tests": {
+        "lab*.py": "doctest",
+        "tests/*.py": "ok_test"
+    },
+    "default_tests": [
+        "bluedog",
+        "smallest-int-having",
+        "matchmaker",
+        "sevens"
+    ],
+    "protocols": [
+        "restore",
+        "file_contents",
+        "unlock",
+        "grading",
+        "analytics",
+        "backup"
+    ]
+}
